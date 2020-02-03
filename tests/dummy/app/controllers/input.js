@@ -2,7 +2,7 @@ import { A } from '@ember/array';
 import Controller from '@ember/controller';
 
 export default Controller.extend({
-  colorScheme: 'dark',
+  colorScheme: 'light',
   layout: 'full',
   layouts: A([
     'full',

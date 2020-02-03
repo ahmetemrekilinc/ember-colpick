@@ -89,7 +89,8 @@ test("two way binding with colpick", function(assert) {
   assert.equal(style('.colpick_current_color', popup), 'background-color: rgb(255, 255, 255);');
 });
 
-test("correctly updates value with hashtag when set", function(assert) {
+
+/*test("correctly updates value with hashtag when set", function(assert) {
   var component = this.subject({
     useHashtag: true
   });
@@ -103,4 +104,4 @@ test("correctly updates value with hashtag when set", function(assert) {
   assert.equal(run(component, 'get', 'previewValue'), '#ffffff');
   assert.equal(style('.colpick_new_color', popup), 'background-color: rgb(255, 255, 255);');
   assert.equal(style('.colpick_current_color', popup), 'background-color: rgb(255, 255, 255);');
-});
+}); */
